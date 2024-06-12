@@ -11,7 +11,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 def test_loginPage():
     # Login Page
     driver.get("https://fms-staging.hypernymbiz.com/")
-
+    print("Done")
 
 def test_loginSuccessful():
     # Email input field
